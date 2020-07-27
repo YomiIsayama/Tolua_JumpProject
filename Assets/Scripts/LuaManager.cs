@@ -18,7 +18,7 @@ public class LuaManager : MonoBehaviour
     {
         get { return luaClient; }
     }
-    void Awake()
+    void Start()
     {
         instance = this;
         //luastate = new LuaState();

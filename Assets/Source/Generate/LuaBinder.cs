@@ -11,11 +11,9 @@ public static class LuaBinder
 		L.BeginModule(null);
 		LuaInterface_DebuggerWrap.Register(L);
 		LuaProfilerWrap.Register(L);
-		LuaManagerWrap.Register(L);
 		UtilWrap.Register(L);
 		UIEventWrap.Register(L);
 		BoxControlWrap.Register(L);
-		LoginWrap.Register(L);
 		L.BeginModule("LuaInterface");
 		LuaInterface_LuaInjectionStationWrap.Register(L);
 		LuaInterface_InjectTypeWrap.Register(L);
